@@ -32,6 +32,12 @@ func main() {
 		commit(os.Args[2:])
 	case "log":
 		logCommand()
+	case "push":
+		logCommand()
+	case "pull":
+		logCommand()
+	case "remote":
+		logCommand()
 	default:
 		fmt.Printf("Unknown command: %s\n", command)
 		os.Exit(1)
